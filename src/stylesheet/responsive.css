@@ -1,0 +1,121 @@
+@media (min-width:768px) and (max-width:991px)  {
+    .filter {
+        padding: 1px 0px 1px 0px !important;
+        margin: 0px !important;
+    }
+    .pro-id-heading {
+        font-size: 14px;
+    }
+    .project-icons{
+        justify-content: space-between;
+    }
+
+    .filter-option {
+        width: 100%;
+    }
+    .popup-filters{
+        display: block !important;
+    }
+    .popup-filters .filter-main-heading:after{
+        display: none !important;
+    }
+    .custom-divider{      
+        height: 2px;
+        width: 100%;        
+        border-top: 2px solid #05A1F3;
+      }
+      .project-compare{
+        justify-content: flex-start;
+    }
+    .project-heading {
+        font-size: 18px;
+    }
+    .time-line {
+        padding: 10px;
+    }
+    .social-medida-icons {
+        justify-content: flex-start !important;
+    }
+    .social-icon-pad:nth-child(1){
+        padding-left: 0px;
+    }
+    .compare-project-title .pro-title {
+        font-size: 20px;
+        width: 100%;
+    }
+  
+}
+
+@media (max-width:767px)  {
+    .filter-option {
+        width: 100%;
+    }
+    .popup-filters{
+        display: block !important;
+    }
+    .popup-filters .filter-main-heading:after{
+        display: none !important;
+    }
+    .filter-main-heading::after {
+        display: none;
+    }
+    .steper-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .custom-divider {
+        height: 20px !important;
+        border-top: 0 !important;
+        width: 100%;
+        margin-left: 14px;
+        border-left: 2px solid #05A1F3;
+    }
+    .links-wrapper{
+        padding-top: 30px !important;
+        padding-bottom: 25px !important;
+        padding-left: 20px !important;
+        padding-right: 30px !important;
+    }
+    .time-line{
+        padding: 10px;
+    }
+    .project-meta{
+        display: block !important;
+        margin-bottom: 20px;
+
+    }
+    .project-icons{
+        justify-content: start;
+    }
+    .project-heading {
+        font-size: 18px;
+    }
+    .project-cost{
+        padding: 10px;
+    }
+    .project-compare{
+        justify-content: flex-start;
+    }
+    .bottom-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .social-medida-icons {
+        justify-content: flex-start !important;
+    }
+    .social-icon-pad:nth-child(1){
+        padding-left: 0px;
+    }
+    .compare-project-title .pro-title {
+        font-size: 20px;
+        width: 100%;
+    }
+   
+}
+@media (max-width:420px)  {
+  
+}
+@media (max-width:320)  {
+    
+}
+
